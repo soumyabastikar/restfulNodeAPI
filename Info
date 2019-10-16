@@ -1,0 +1,5 @@
+To create a default package.json file based on the details of the existing repository:
+Command -> npm init --yes 
+
+To add nodemon to your project ( To avoid running node server.js(main file) after every change)
+Command -> npm install --save nodemon
