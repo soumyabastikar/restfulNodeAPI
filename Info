@@ -11,3 +11,5 @@ To add a parser to the URL being sent as a REST API call (url body accessing), i
 
 useful links:
 https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/
+
+Whenever user makes a POST/PUT request to the backend, browser typically sends another req with the method OPTIONS to check whether the user can make this request or if he is allowed to do so.
