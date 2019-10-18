@@ -1,5 +1,13 @@
 To create a default package.json file based on the details of the existing repository:
-Command -> npm init --yes 
+Command -> npm init --yes
 
 To add nodemon to your project ( To avoid running node server.js(main file) after every change)
 Command -> npm install --save nodemon
+
+To add logging feature to see the server/rest calls in the terminal
+add Morgan
+
+To add a parser to the URL being sent as a REST API call (url body accessing), install body-parser
+
+useful links:
+https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/
