@@ -9,6 +9,8 @@ add Morgan
 
 To add a parser to the URL being sent as a REST API call (url body accessing), install body-parser
 
+For the kind of req bodies that body-parser can't parse -> Multer is used (For eg.Form Data)
+
 useful links:
 https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/
 
@@ -17,3 +19,7 @@ Whenever user makes a POST/PUT request to the backend, browser typically sends a
 CORS Errors are security mechanisms enforced by the Browsers.Postman is a testing tool hence CORS error are not present.
 
 Mongoose is a package for performing actions on Mongo DB in an easy way.
+
+"Populate" function is used to get all the data of a particular modal.
+For eg.
+"populate('product')" displays all the  properties of product modal in the GET call.
