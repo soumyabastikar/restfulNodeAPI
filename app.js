@@ -13,6 +13,7 @@ mongoose.connect('mongodb+srv://user1:user1pwd@cluster0-v8nkf.mongodb.net/test?r
 
 //logging
 app.use(morgan('dev'));
+app.use('/uploads', express.static('uploads')); //to make the uploads folder available to everyone for use
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
